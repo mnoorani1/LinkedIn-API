@@ -21,10 +21,11 @@ public class Linkedin2 {
         // TODO code application logic here
         LinkedInConnector con = new LinkedInConnector();
         //con.getAccToken();
-        con.getProfile();
+        //con.getProfile();
         //con.postStatus();
         //con.postP();
-        con.postC();
+        //con.postC();
+        con.getTopPost();
     }
     
 }
